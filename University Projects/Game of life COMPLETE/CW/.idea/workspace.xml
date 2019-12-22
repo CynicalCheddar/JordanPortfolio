@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9697e228-5b42-42f4-ae05-d46317cc10c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/parralel mk1/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parralel mk1/baseline" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parralel mk1/baseline.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parralel mk1/comparison/compare.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parralel mk1/comparison/compare.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parralel mk1/control.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parralel mk1/cw_code.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parralel mk1/gameoflife" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parralel mk1/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parralel mk1/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parralel mk1/gol.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parralel mk1/images/128x128.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parralel mk1/images/16x16.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parralel mk1/images/256x256.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parralel mk1/images/5120x5120.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parralel mk1/images/512x512.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parralel mk1/images/64x64.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parralel mk1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parralel mk1/main_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parralel mk1/out/16x16.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parralel mk1/pgm.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sequential/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sequential/baseline" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sequential/baseline.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sequential/comparison/compare.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sequential/comparison/compare.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sequential/control.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sequential/cw_code.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sequential/gameoflife" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sequential/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sequential/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sequential/gol.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sequential/images/128x128.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sequential/images/16x16.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sequential/images/256x256.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sequential/images/5120x5120.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sequential/images/512x512.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sequential/images/64x64.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sequential/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sequential/main_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sequential/out/16x16.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sequential/pgm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1SyX0VZ6SPrE6xgUTDdB4aolFQg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/parralel mk1" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9697e228-5b42-42f4-ae05-d46317cc10c8" name="Default Changelist" comment="" />
+      <created>1572536587150</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572536587150</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
