@@ -1,0 +1,83 @@
+go test -bench .
+Alive cell at 4 5
+Alive cell at 5 6
+Alive cell at 3 7
+Alive cell at 4 7
+Alive cell at 5 7
+File 16x16 input done!
+File 16x16 output done!
+Alive cell at 4 5
+Alive cell at 5 6
+Alive cell at 3 7
+Alive cell at 4 7
+Alive cell at 5 7
+File 16x16 input done!
+File 16x16 output done!
+Alive cell at 4 5
+Alive cell at 5 6
+Alive cell at 3 7
+Alive cell at 4 7
+Alive cell at 5 7
+File 16x16 input done!
+File 16x16 output done!
+Alive cell at 4 5
+Alive cell at 5 6
+Alive cell at 3 7
+Alive cell at 4 7
+Alive cell at 5 7
+File 16x16 input done!
+File 16x16 output done!
+Alive cell at 4 5
+Alive cell at 5 6
+Alive cell at 3 7
+Alive cell at 4 7
+Alive cell at 5 7
+File 16x16 input done!
+File 16x16 output done!
+Alive cell at 4 5
+Alive cell at 5 6
+Alive cell at 3 7
+Alive cell at 4 7
+Alive cell at 5 7
+File 16x16 input done!
+File 16x16 output done!
+Alive cell at 4 5
+Alive cell at 5 6
+Alive cell at 3 7
+Alive cell at 4 7
+Alive cell at 5 7
+File 16x16 input done!
+File 16x16 output done!
+Alive cell at 4 5
+Alive cell at 5 6
+Alive cell at 3 7
+Alive cell at 4 7
+Alive cell at 5 7
+File 16x16 input done!
+File 16x16 output done!
+Alive cell at 4 5
+Alive cell at 5 6
+Alive cell at 3 7
+Alive cell at 4 7
+Alive cell at 5 7
+File 16x16 input done!
+File 16x16 output done!
+goos: linux
+goarch: amd64
+pkg: uk.ac.bris.cs/gameoflife
+Benchmark/16x16x2-12         	      19	  69316925 ns/op
+Benchmark/16x16x4-12         	      27	  41024792 ns/op
+Benchmark/16x16x8-12         	      24	  48178667 ns/op
+Benchmark/64x64x2-12         	       4	 278427773 ns/op
+Benchmark/64x64x4-12         	       4	 265515072 ns/op
+Benchmark/64x64x8-12         	       5	 207410858 ns/op
+Benchmark/128x128x2-12       	       2	 871137504 ns/op
+Benchmark/128x128x4-12       	       2	 679065270 ns/op
+Benchmark/128x128x8-12       	       2	 507972372 ns/op
+Benchmark/256x256x2-12       	       1	3136847168 ns/op
+Benchmark/256x256x4-12       	       1	2202600798 ns/op
+Benchmark/256x256x8-12       	       1	1437828427 ns/op
+Benchmark/512x512x2-12       	       1	11961135983 ns/op
+Benchmark/512x512x4-12       	       1	7927723387 ns/op
+Benchmark/512x512x8-12       	       1	5103161971 ns/op
+ok  	uk.ac.bris.cs/gameoflife	49.507s
