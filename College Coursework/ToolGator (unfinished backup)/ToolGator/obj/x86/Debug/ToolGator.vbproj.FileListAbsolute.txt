@@ -1,0 +1,88 @@
+C:\Users\stu045587\AppData\Local\Temporary Projects\ToolGator\obj\x86\Debug\ToolGator.AccountCreation.resources
+C:\Users\stu045587\AppData\Local\Temporary Projects\ToolGator\obj\x86\Debug\ToolGator.Form1.resources
+C:\Users\stu045587\AppData\Local\Temporary Projects\ToolGator\obj\x86\Debug\ToolGator.LoginForm.resources
+C:\Users\stu045587\AppData\Local\Temporary Projects\ToolGator\obj\x86\Debug\ToolGator.Resources.resources
+C:\Users\stu045587\AppData\Local\Temporary Projects\ToolGator\obj\x86\Debug\ToolGator.vbproj.GenerateResource.Cache
+C:\Users\stu045587\AppData\Local\Temporary Projects\ToolGator\bin\Debug\ToolGator.exe
+C:\Users\stu045587\AppData\Local\Temporary Projects\ToolGator\bin\Debug\ToolGator.pdb
+C:\Users\stu045587\AppData\Local\Temporary Projects\ToolGator\bin\Debug\ToolGator.xml
+C:\Users\stu045587\AppData\Local\Temporary Projects\ToolGator\obj\x86\Debug\ToolGator.exe
+C:\Users\stu045587\AppData\Local\Temporary Projects\ToolGator\obj\x86\Debug\ToolGator.xml
+C:\Users\stu045587\AppData\Local\Temporary Projects\ToolGator\obj\x86\Debug\ToolGator.pdb
+D:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.exe
+D:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.xml
+D:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.pdb
+D:\ToolGator\ToolGator\bin\Debug\ToolGator.exe
+D:\ToolGator\ToolGator\bin\Debug\ToolGator.pdb
+D:\ToolGator\ToolGator\bin\Debug\ToolGator.xml
+D:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.AccountCreation.resources
+D:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.Form1.resources
+D:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.LoginForm.resources
+D:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.Resources.resources
+D:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.vbproj.GenerateResource.Cache
+D:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.Switch.resources
+D:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.ViewAll.resources
+I:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.exe
+I:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.xml
+I:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.pdb
+I:\ToolGator\ToolGator\bin\Debug\ToolGator.exe
+I:\ToolGator\ToolGator\bin\Debug\ToolGator.pdb
+I:\ToolGator\ToolGator\bin\Debug\ToolGator.xml
+I:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.AccountCreation.resources
+I:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.AddManufacturer.resources
+I:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.BrowseStock.resources
+I:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.Form1.resources
+I:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.addStock.resources
+I:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.LoginForm.resources
+I:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.Resources.resources
+I:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.Switch.resources
+I:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.ViewAll.resources
+I:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.vbproj.GenerateResource.Cache
+D:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.AddManufacturer.resources
+D:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.BrowseStock.resources
+D:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.addStock.resources
+D:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.AddCategory.resources
+D:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.AddToolType.resources
+I:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.AddCategory.resources
+I:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.AddToolType.resources
+D:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.AmendInventory.resources
+D:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.vbprojResolveAssemblyReference.cache
+D:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.vbproj.CoreCompileInputs.cache
+E:\ToolGator\ToolGator\bin\Debug\ToolGator.exe
+E:\ToolGator\ToolGator\bin\Debug\ToolGator.pdb
+E:\ToolGator\ToolGator\bin\Debug\ToolGator.xml
+E:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.vbprojResolveAssemblyReference.cache
+E:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.AccountCreation.resources
+E:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.AddCategory.resources
+E:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.AddManufacturer.resources
+E:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.AddToolType.resources
+E:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.AmendInventory.resources
+E:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.BrowseStock.resources
+E:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.Form1.resources
+E:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.addStock.resources
+E:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.LoginForm.resources
+E:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.Resources.resources
+E:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.Switch.resources
+E:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.ViewAll.resources
+E:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.vbproj.GenerateResource.Cache
+E:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.vbproj.CoreCompileInputs.cache
+E:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.exe
+E:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.xml
+E:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.pdb
+I:\ToolGator\ToolGator\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+I:\ToolGator\ToolGator\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+I:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.vbprojResolveAssemblyReference.cache
+I:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.AmendInventory.resources
+E:\ToolGator\ToolGator\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+E:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.CustomerSaleRental.resources
+E:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.VerifyCustomer.resources
+E:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.AddCustomer.resources
+D:\ToolGator\ToolGator\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+D:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.AddCustomer.resources
+D:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.CustomerSaleRental.resources
+D:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.VerifyCustomer.resources
+E:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.ReturnTool.resources
+I:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.AddCustomer.resources
+I:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.CustomerSaleRental.resources
+I:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.ReturnTool.resources
+I:\ToolGator\ToolGator\obj\x86\Debug\ToolGator.VerifyCustomer.resources

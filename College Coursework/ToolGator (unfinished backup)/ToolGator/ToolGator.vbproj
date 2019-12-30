@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3A565EA7-B9EC-41F0-9F6D-40624F19FAF9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ToolGator.My.MyApplication</StartupObject>
+    <RootNamespace>ToolGator</RootNamespace>
+    <AssemblyName>ToolGator</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ToolGator.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ToolGator.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountCreation.Designer.vb">
+      <DependentUpon>AccountCreation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccountCreation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCategory.Designer.vb">
+      <DependentUpon>AddCategory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddCategory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCustomer.Designer.vb">
+      <DependentUpon>AddCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddManufacturer.Designer.vb">
+      <DependentUpon>AddManufacturer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddManufacturer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddToolType.Designer.vb">
+      <DependentUpon>AddToolType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddToolType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AmendInventory.Designer.vb">
+      <DependentUpon>AmendInventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AmendInventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BrowseStock.Designer.vb">
+      <DependentUpon>BrowseStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BrowseStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerSaleRental.Designer.vb">
+      <DependentUpon>CustomerSaleRental.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerSaleRental.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Globals.vb" />
+    <Compile Include="Inventory.Designer.vb">
+      <DependentUpon>Inventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ReturnTool.Designer.vb">
+      <DependentUpon>ReturnTool.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReturnTool.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Switch.Designer.vb">
+      <DependentUpon>Switch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Switch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerifyCustomer.Designer.vb">
+      <DependentUpon>VerifyCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VerifyCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewAll.Designer.vb">
+      <DependentUpon>ViewAll.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewAll.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AccountCreation.resx">
+      <DependentUpon>AccountCreation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddCategory.resx">
+      <DependentUpon>AddCategory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddCustomer.resx">
+      <DependentUpon>AddCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddManufacturer.resx">
+      <DependentUpon>AddManufacturer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddToolType.resx">
+      <DependentUpon>AddToolType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AmendInventory.resx">
+      <DependentUpon>AmendInventory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BrowseStock.resx">
+      <DependentUpon>BrowseStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerSaleRental.resx">
+      <DependentUpon>CustomerSaleRental.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory.resx">
+      <DependentUpon>Inventory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReturnTool.resx">
+      <DependentUpon>ReturnTool.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Switch.resx">
+      <DependentUpon>Switch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerifyCustomer.resx">
+      <DependentUpon>VerifyCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewAll.resx">
+      <DependentUpon>ViewAll.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
