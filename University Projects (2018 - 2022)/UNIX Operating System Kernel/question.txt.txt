@@ -1,0 +1,119 @@
+-------------------------------------------------------------------------------
+
+1. Instructions
+
+- replace any [...] with free text,
+  and
+- replace the [?] with an X if you have completed that stage,
+- replace the [?] with an * if you have attempted that stage, but you know
+  it doesn't work completely; document why you think it doesn't work, plus
+  what you would do to fix the problem, at the end of the marksheet.
+
+-------------------------------------------------------------------------------
+
+2. Information
+
+So that we can calibrate and improve the assignment in the future, give us
+a rough idea how long (in hours) you spent on it *in total*:
+
+effort : [80] hours
+
+-------------------------------------------------------------------------------
+
+3. Citation
+
+Clearly it might have an influence on your mark, but the use of third-party
+resources is allowed *iff.* it
+
+- hasn't been explicitly prohibited by the assignment description, *and*
+- is correctly cited.
+
+Let us know any third-party source code or resources you used (if any) so
+it's clear what's your work and what isn't:
+
+[8x8 basic bitmap font]
+[PS/2 keyboard lookup table]
+
+-------------------------------------------------------------------------------
+
+4. Marking
+
+The following gives a stage-by-stage description of the assignment marking
+scheme.  Note this acts as an indicative guideline only, including weights
+for each more obvious aspect (e.g., functional correctness); other aspects
+outside this list can warrant an increase/decrease in marks, with examples
+including hard to quantify features such as style, efficiency, robustness, 
+generality, or realism of a solution.  Put another way, identifying then
+reasoning about these latter aspects forms part of the assessment, so they
+are not (necessarily) detailed explicitly.
+
+    Stage 1 : a baseline kernel
+[X]           - pre-emptive multi-tasking                            ( 30%)
+[X]           - priority-based scheduler                             ( 10%)
+
+    Stage 2 : closed generalisations and enhancements
+[X]           - fork, exec, and exit system calls                    ( 15%)
+[X]           - Inter-Process Communication (IPC)                    ( 15%)
+
+    Stage 3 : open   generalisations and enhancements                ( 30%)
+[?]           - MMU-based protection and virtualisation
+                *OR*
+[X]           - LCD screen and PS/2 device drivers and GUI
+                *OR*
+[?]           - file system based on simplified, emulated disk
+                *OR*
+[?]           - kernel port to real, physical hardware                     
+
+                                                                     ------
+                                                                     (100%)
+
+-------------------------------------------------------------------------------
+
+5. Documentation
+
+Any other documentation, notes or comments that you think are important or
+might be easy to overlook (e.g., a subtle issue or technique in associated
+source code) should go here:
+
+Scheduler Style - Longest Wait Priority. The priority of waiting processes increases upon each timer interrupt.
+					 Context switching a process resets its priority to a specified base level.
+					 Processes of equal priority are executed arbirarily.
+					 The scheduler is pre-emptive. It fulfills the success criteria.
+					 Compared to shortest job first algorithms, the execution time of a process does not need to be
+					 precalculated, therefore improving performance.
+					 Process starvation shouldn't occur, since processes with a high wait time are guaranteed to be scheduled at some point.
+
+
+IPC Style - General Purpose Pipe Queues. Managed by the kernel, each process has access to two methods of piped communication.
+					 This system makes use of a small buffer, to increase operational efficiency.
+					 There are two forms of pipe:
+						The General Purpose Data pipe.
+						The Command and Data pipe.
+				 	 
+					 I decided to implement pipes over shared memory for several reasons:
+						Shared memory requires complex synchronisation methods due to the fact that there is no guarantee of data being consistent.
+						Shared memory would most likely result in race conditions and require a complex mutex lock mechanism.
+						Although not relevant to this coursework, shared memory can result in security issues with processes being able to 
+						access the resources of another. 
+						A message passing piped approach theoretically makes it easier to construct parallelised systems. If the operating system were
+						to be changed to make use of multiple cores, the dining philosophers implementation should still hold.
+						Sion said that shared memory was a bad practice.
+					
+
+Subtle Technical issues:
+Occasionally when executing the kernel, the scheduler decides to stop working altogether. I think this is due to an issue with the LCD display or PS/2 keyboard input driver. A successful launch will show a blinking cursor in the LCD display and a repeating dash in the standard output.
+PS/2 Mouse input had to be disabled. Any PS/2 interrupt to the mouse input driver would completely halt execution of the kernel (even when not carrying out servicing and returning as expected).
+I believe P4 and P5 suffer from stability issues relating to my stack pointer implementation. On my computer, they seem to run correctly ~80% of the time, the other ~20% of the time resulting in a crash.
+
+User notes:
+Although the text based console is still functional, it is best to use the graphic interface.
+COMMANDS:
+--- EXECUTE (program name) 
+--- TERMINATE (process ID) – kills a process specified by pid.
+--- LS – Displays the list of executable programs.
+--- NICE (process ID) – sets priority of process.
+--- CONNECT (process ID) (process ID) – Connects two children spawned by the IPC program. Allows signal broadcasting after handshaking.
+--- DISCONNECT (process ID) (process ID) – Disconnects two children spawned by the IPC program. (WARNING - CONNECT and DISCONNECT take a few cycles to complete the handshaking. It may take a short while).
+
+
+-------------------------------------------------------------------------------

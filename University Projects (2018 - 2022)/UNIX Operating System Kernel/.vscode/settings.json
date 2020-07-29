@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "hashtable": "c",
+        "ipcchild.h": "c",
+        "p5.h": "c",
+        "libc.h": "c",
+        "pl011.h": "c",
+        "stdint.h": "c",
+        "stddef.h": "c",
+        "console.h": "c",
+        "hilevel.h": "c",
+        "ps2keytable.h": "c",
+        "basicfont.h": "c",
+        "stdbool.h": "c",
+        "sys.h": "c",
+        "graphicconsole.h": "c",
+        "philosopher.h": "c",
+        "ipc.h": "c"
+    }
+}
